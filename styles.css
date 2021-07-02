@@ -1,28 +1,49 @@
 body {
     background: url(./images/68d6edf979078fee84cd4dad24296eb8.webp);
     background-size: cover;
+    
 }
 h1 {
-    margin-left: 350px;
-    color: #161616;
+    margin-left: 100px;
+    color: #ecd7d7;
+
 }
 button {
-    color: rgb(38, 122, 115) bold 15;
+    color: rgb(22, 141, 131) bold 15;
     align-items: center;
     margin: 10px;
-    background: rgba(117, 21, 21, 0.05);
+    background: #4cd;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 9.0px );
     -webkit-backdrop-filter: blur( 9.0px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     font-family: serif;
 }
 button:hover {
     color: rgb(10, 10, 9);
-    background: burlywood;
+    background: rgb(43, 173, 25);
 }
 .pokemon-info img {
-    width: 30%;
+    width: 40%;
+    height: 50%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    
 
+}
+
+.pokemon-info{
+    color:white;
+    margin-left: 150px;
+}
+
+.card {
+    width: 40%;
+    height: 20%;
 }
